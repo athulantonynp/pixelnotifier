@@ -15,7 +15,7 @@ async function getPage(){
     try{
         let result=await axios.get(URL)
         let stringHtml=result.data.toString()
-        if(stringHtml.includes(NOTIFY_ME) || stringHtml.includes(ADD_TO_CART)){
+        if(stringHtml.includes(BUY_NOW_STRING) || stringHtml.includes(ADD_TO_CART)){
             showSaleIsOnMessage()
         }
     }catch(e){
