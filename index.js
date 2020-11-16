@@ -36,12 +36,12 @@ function showSaleIsOnMessage(){
         sound: true,
         wait: true
       });
-      notifier.on('click', function (notifierObject, options, event) {
-          console.log('click found')
-        open(URL);
-      })
+      // notifier.on('click', function (notifierObject, options, event) {
+      //     console.log('click found')
+      //   open(URL);
+      // })
     
 
 }
-
+console.log('Pixel notifier started---')
 getPage()
