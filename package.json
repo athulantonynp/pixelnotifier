@@ -1,0 +1,16 @@
+{
+  "name": "pixelnotifier",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "athulantonynp",
+  "license": "ISC",
+  "dependencies": {
+    "axios": "^0.21.0",
+    "node-notifier": "^8.0.0",
+    "open": "^7.3.0"
+  }
+}
